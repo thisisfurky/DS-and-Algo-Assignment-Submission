@@ -1,0 +1,26 @@
+for(i=1;i<=n;i++)
+    for(j=i;j<=n;j++)
+        printf("hi");
+
+Assume n=4
+1. i=1;j=1,j=2,j=3,j=4
+2. i=2;j=2,j=3,j=4
+3. i=3;j=3,j=4
+4. i=4;j=4
+
+The Time complexity of inner for loop is O(sqrt(n))
+The Time complexity of outer for loop is O(n)
+So the Time complexity is O(n*sqrt(n))
+
+for(i=1;i<=n;i*=3)
+    for(j=1;j<=n;j++)
+        printf("hello");
+
+Assume n=9
+1. i=1;j=1,j=2,j=3,j=4
+2. i=3;j=1,j=2,j=3,j=4
+3. i=9;j=1,j=2,j=3,j=4
+ 
+The Time complexity of inner for loop is O(log(n))
+The Time complexity of outer for loop is O(n)
+So the total Time complexity is O(n*log(n))
