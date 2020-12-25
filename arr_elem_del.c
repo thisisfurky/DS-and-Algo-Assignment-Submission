@@ -19,6 +19,7 @@ int main()
     }
     printf("Enter the position of element you wish to delete\n");
     scanf("%d",&pos);
+    pos--;
     if (pos>=n){
         printf("Deletion not possible\n");
     }
