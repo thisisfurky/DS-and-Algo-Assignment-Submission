@@ -11,7 +11,7 @@ def printArray(arr,n):
         print(arr[i],end=' ')
 
 
-n = int(input("Enter the no of elements of array"))
+n = int(input("Enter the no of elements of the array"))
 print("Enter the elements")
 arr = []
 for i in range(0,n):
