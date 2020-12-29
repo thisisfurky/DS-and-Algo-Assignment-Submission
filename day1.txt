@@ -23,4 +23,4 @@ Assume n=9
  
 The Time complexity of inner for loop is O(log(n))
 The Time complexity of outer for loop is O(n)
-So the total Time complexity is O(n*log(n))
+So the total Time complexity is O(n *log(n))
