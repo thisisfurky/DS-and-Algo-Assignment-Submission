@@ -2,11 +2,11 @@
 
 int main()
 {
-    int arr[100],pos,n,i;
+    int arr[100],pos,n;
     printf("Enter the no of elements of array\n");
     scanf("%d",&n);
     printf("Enter %d no of elements\n",n);
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     printf("Enter the position of element you wish to delete\n");
